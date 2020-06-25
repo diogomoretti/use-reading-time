@@ -1,12 +1,19 @@
-import React from 'react'
-import { useMyHook } from 'use-reading-time'
+import React, { useRef } from 'react'
+import Post from './post'
+import useReadingTime from 'use-reading-time'
 
 const App = () => {
-  const example = useMyHook()
+  const post = useRef()
+  const [readingTime, words] = useReadingTime(post)
+
   return (
-    <div>
-      {example}
+    <div className='demo'>
+      <div className='demo-heading'>
+        <strong>{readingTime} <em>min</em> • {words} <em>words</em></strong>
+      </div>
+      <Post paragraphs={30} ref={post} />
     </div>
   )
 }
+
 export default App

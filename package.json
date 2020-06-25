@@ -1,6 +1,6 @@
 {
   "name": "use-reading-time",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Custom hook to get a reading time article",
   "author": "diogomoretti",
   "license": "MIT",
@@ -45,6 +45,7 @@
     "@babel/plugin-syntax-import-meta": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "@testing-library/react": "^10.0.4",
     "@testing-library/react-hooks": "^3.2.1",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
@@ -58,6 +59,7 @@
     "eslint-plugin-standard": "^3.1.0",
     "gh-pages": "^2.0.1",
     "react": "^16.9.0",
+    "react-dom": "^16.13.1",
     "react-scripts": "^3.0.1",
     "react-test-renderer": "^16.9.0",
     "rollup": "^1.1.2",
