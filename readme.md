@@ -1,9 +1,9 @@
-<h1 align="center">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/2853428/85798175-667dbf00-b713-11ea-8e5e-30ed45470c37.png" width="500">
   <p align="center">
     <a href="https://www.npmjs.com/package/use-reading-time"><img alt="npm" src="https://img.shields.io/npm/v/use-reading-time?style=for-the-badge"></a> <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=for-the-badge" alt="JavaScript Style Guide" /></a>
   </p>
-</h1>
+</p>
 
 ## Install
 
