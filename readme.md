@@ -34,11 +34,9 @@ const Example = () => {
   
   return (
     <div>
-      <p>
-        {readingTime} min • {words} words
-      </p>
+      {readingTime} min • {words} words
       
-      // You need to use `forwardingRef` for this case
+      // You'll need to use `forwardingRef` for this case
       <Post ref={post} />
     </div>
   )
