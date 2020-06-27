@@ -4,6 +4,9 @@
   <p align="center">
     <a href="https://www.npmjs.com/package/use-reading-time"><img alt="npm" src="https://img.shields.io/npm/v/use-reading-time"></a> <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide" /></a>
   </p>
+  <p align="center">
+    <a href="https://diogomoretti.github.io/use-reading-time/"><h4 align="center">View demo ➔</h4></a>
+  </p>
 </p>
 <br>
 
