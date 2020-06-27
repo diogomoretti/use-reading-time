@@ -36,7 +36,7 @@ const Example = () => {
     <div>
       {readingTime} min • {words} words
       
-      // You'll need to use `forwardRef` for this case
+      // You'll need to use `forwardRef` in this case
       <Post ref={post} />
     </div>
   )
