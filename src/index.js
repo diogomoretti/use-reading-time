@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react'
 
-export default function useReadingTime(ref, wpm = 250) {
+export default function useReadingTime(ref, wordsPerMinute = 260) {
   const [readingTime, setReadingTime] = useState(1)
   const [wordsCount, setWordsCount] = useState(1)
-  const wordsPerMinute = wpm
 
   useEffect(() => {
     const elem = ref.current
