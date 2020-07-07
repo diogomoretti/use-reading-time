@@ -27,18 +27,18 @@ npm install --save use-reading-time
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useRef } from 'react'
 
 import useReadingTime from 'use-reading-time'
 
 const Example = () => {
   const post = useRef()
   const [readingTime, words] = useReadingTime(post)
-  
+
   return (
     <div>
       {readingTime} min • {words} words
-      
+
       // You'll need to use `forwardRef` in this case
       <Post ref={post} />
     </div>
