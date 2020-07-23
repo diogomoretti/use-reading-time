@@ -54,7 +54,7 @@ useReadingTime(reference, wordsPerMinute)
 
 | Argument  | Description | Type | Default | Required | 
 | --------- | ----------- | ---- | ------- | -------- |
-`reference` | A DOM node component reference | `React Ref Object` | – | Yes
+`reference` | A React ref object | `Object` | – | Yes
 `wordsPerMinute` | Number of words we can read per minute | `Number` | 260 ([Source](https://www.sciencedirect.com/science/article/pii/S0749596X19300786)) | No
 
 ## License
