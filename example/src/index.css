@@ -15,11 +15,47 @@ body {
 }
 
 .demo-heading {
+  position: relative;
+  display: inline-block;
   font-size: 2rem;
+}
+
+.demo-heading:before {
+  --border-spacing: -1.4rem;
+  content: '';
+  position: absolute;
+  left: var(--border-spacing);
+  top: var(--border-spacing);
+  right: var(--border-spacing);
+  bottom: var(--border-spacing);
+  border: 2px solid red;
+  border-radius: 3px;
+  opacity: 0;
+  animation: blink .8s alternate infinite linear;
+  z-index: -1;
 }
 
 .demo-text p {
   margin: 3rem 0;
   line-height: 2;
   font-size: 1.8rem;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 10px;
+  }
+
+  .demo {
+    max-width: 90%;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
