@@ -28,6 +28,7 @@ npm install --save use-reading-time
 
 ```jsx
 import React, { useRef } from 'react'
+import Post from './post'
 
 import useReadingTime from 'use-reading-time'
 
