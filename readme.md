@@ -28,6 +28,7 @@ npm install --save use-reading-time
 
 ```jsx
 import React, { useRef } from 'react'
+import Post from './post'
 
 import useReadingTime from 'use-reading-time'
 
@@ -45,6 +46,16 @@ const Example = () => {
   )
 }
 ```
+
+## Options/Params
+```jsx
+useReadingTime(reference, wordsPerMinute)
+```
+
+| Argument  | Description | Type | Default | Required | 
+| --------- | ----------- | ---- | ------- | -------- |
+`reference` | A DOM node component reference | `Element` | – | Yes
+`wordsPerMinute` | Number of words we can read per minute | `Number` | 260 ([Source](https://www.sciencedirect.com/science/article/pii/S0749596X19300786)) | No
 
 ## License
 
