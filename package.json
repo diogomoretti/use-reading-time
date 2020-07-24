@@ -1,7 +1,7 @@
 {
   "name": "use-reading-time",
-  "version": "0.1.2",
-  "description": "React hook to show a reading time and number of words in your article",
+  "version": "0.2.0",
+  "description": "A react hook to show in how many time that content could be read",
   "author": "diogomoretti",
   "license": "MIT",
   "repository": "diogomoretti/use-reading-time",

@@ -4,12 +4,12 @@ import useReadingTime from 'use-reading-time'
 
 const App = () => {
   const post = useRef()
-  const [readingTime, words] = useReadingTime(post)
+  const {readingTime, wordsCount} = useReadingTime(post)
 
   return (
     <div className='demo'>
       <div className='demo-heading'>
-        <strong>{readingTime} <em>min</em> • {words} <em>words</em></strong>
+        <strong>{readingTime} <em>min</em> • {wordsCount} <em>words</em></strong>
       </div>
       <Post paragraphs={30} ref={post} />
     </div>
