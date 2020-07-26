@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/2853428/85798175-667dbf00-b713-11ea-8e5e-30ed45470c37.png" width="500">
+  <img src="https://user-images.githubusercontent.com/2853428/88489869-a67fce00-cf6d-11ea-871f-76fb53cae2b2.png" width="500">
   <p align="center"><em>A react hook to show in how many time that content could be read</em></p>
   <p align="center">
     <a href="https://www.npmjs.com/package/use-reading-time"><img alt="npm" src="https://img.shields.io/npm/v/use-reading-time"></a> <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide" /></a>
