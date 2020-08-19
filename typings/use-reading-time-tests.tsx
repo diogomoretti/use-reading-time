@@ -1,12 +1,12 @@
-import React, { useRef, useState } from "react";
-import { render } from "react-dom";
-import useReadingTime from "./use-reading-time";
+import React, { useRef, useState } from 'react'
+import { render } from 'react-dom'
+import useReadingTime from './use-reading-time'
 
-const speed = 200;
+const speed = 200
 
 function App() {
-  const page = useRef<HTMLDivElement>(null);
-  const { readingTime, wordsCount } = useReadingTime(page, speed);
+  const page = useRef<HTMLDivElement>(null)
+  const { readingTime, wordsCount } = useReadingTime(page, speed)
 
   return (
     <div ref={page}>
@@ -23,7 +23,7 @@ function App() {
         mollit anim id est laborum.
       </p>
     </div>
-  );
+  )
 }
 
-render(<App />, document.body);
+render(<App />, document.body)

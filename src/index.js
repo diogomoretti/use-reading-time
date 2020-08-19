@@ -12,5 +12,5 @@ export default function useReadingTime(ref, wordsPerMinute = 260) {
     setWordsCount(words)
   }, [ref, wordsPerMinute])
 
-  return {readingTime, wordsCount}
+  return { readingTime, wordsCount }
 }
