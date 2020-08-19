@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
+  "types": "typings/use-reading-time.d.ts",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
