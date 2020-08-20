@@ -5,12 +5,13 @@ export default function useReadingTime(ref, wordsPerMinute = 260) {
   const [wordsCount, setWordsCount] = useState(1)
 
   useEffect(() => {
-    const elem = ref.current
-    const words = elem.innerText.match(/\w+/g).length
-    const readingTimeCalc = Math.ceil(words / wordsPerMinute)
-    setReadingTime(readingTimeCalc)
-    setWordsCount(words)
-  }, [ref])
+    if (ref.current) {
+      const words = (ref.current.innerText.match(/\w+/g) || '').length
+      const readingTimeCalc = Math.ceil(words / wordsPerMinute)
+      setReadingTime(readingTimeCalc)
+      setWordsCount(words)
+    }
+  }, [ref, wordsPerMinute])
 
-  return {readingTime, wordsCount}
+  return { readingTime, wordsCount }
 }
