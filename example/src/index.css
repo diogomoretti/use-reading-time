@@ -1,5 +1,5 @@
 html {
-  font-size: .65vw;
+  font-size: 0.65vw;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   border: 2px solid red;
   border-radius: 3px;
   opacity: 0;
-  animation: blink .8s alternate infinite linear;
+  animation: blink 0.8s alternate infinite linear;
   z-index: -1;
 }
 

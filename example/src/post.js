@@ -15,8 +15,8 @@ const Post = forwardRef(({ paragraphs = 1 }, ref) => {
   const numberOfParagraphs = Array.from({ length: paragraphs })
 
   return (
-    <div className='demo-text' ref={ref}>
-      {numberOfParagraphs.map(( item, index ) => (
+    <div className="demo-text" ref={ref}>
+      {numberOfParagraphs.map((item, index) => (
         <Paragraph key={index} />
       ))}
     </div>
