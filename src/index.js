@@ -9,5 +9,5 @@ export default function useReadingTime(ref, wordsPerMinute = 260) {
     setWordsCount(words)
   }, [ref])
 
-  return {readingTime: Math.ceil(wordsCount / wordsPerMinute), wordsCount}
+  return { readingTime: Math.ceil(wordsCount / wordsPerMinute), wordsCount }
 }

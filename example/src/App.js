@@ -11,7 +11,7 @@ const App = () => {
       <div className='demo-heading'>
         <strong>{readingTime} <em>min</em> • {wordsCount} <em>words</em></strong>
       </div>
-      <Post paragraphs={30} ref={post} />
+      <Post paragraphs={20} ref={post} />
     </div>
   )
 }
