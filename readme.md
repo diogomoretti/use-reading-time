@@ -6,7 +6,7 @@
   <a href="https://github.com/diogomoretti/use-reading-time/actions"><img src="https://github.com/diogomoretti/use-reading-time/actions/workflows/test.yml/badge.svg" /></a>
   </p>
   <p align="center">
-    <a href="https://diogomoretti.github.io/use-reading-time/"><h4 align="center">View demo ➔</h4></a>
+    <a href="https://diogomoretti.github.io/use-reading-time/">View demo ➔</a>
   </p>
 </p>
 <br>
