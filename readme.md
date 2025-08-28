@@ -25,6 +25,12 @@ yarn add use-reading-time
 npm install --save use-reading-time
 ```
 
+#### Using PNPM:
+
+```bash
+pnpm add use-reading-time
+```
+
 ## Usage
 
 ```jsx
@@ -41,7 +47,7 @@ const Example = () => {
     <div>
       {readingTime} min • {wordsCount} words
 
-      // You'll need to use `forwardRef` in this case
+      // Depending on the React version, you may need to use forwardRef
       <Post ref={post} />
     </div>
   )
